@@ -5,13 +5,41 @@
 
 return {
 	{
-		"bjarneo/pixel.nvim",
-		name = "pixel",
+		"bjarneo/aether.nvim",
+		name = "demon",
+		priority = 1000,
+		opts = {
+			disable_italics = false,
+			colors = {
+				-- Monotone shades (base00-base07)
+				base00 = "#0F0F0F", -- Background
+				base01 = "#1B1B1B", -- Panels
+				base02 = "#3A403B", -- Selection
+				base03 = "#6E6A5A", -- Comments (Ash Bronze - improved readability)
+				base04 = "#7B726A", -- Dim text
+				base05 = "#E0D4C2", -- Foreground
+				base06 = "#F3E9DA", -- Bright foreground
+				base07 = "#FFFFFF", -- White
+
+				-- Accent colors
+				base08 = "#8B0000", -- Errors
+				base09 = "#FFAA00", -- Constants
+				base0A = "#E24C00", -- Keywords
+				base0B = "#D87F3E", -- Strings
+				base0C = "#A67C52", -- Support
+				base0D = "#FF6347", -- Functions
+				base0E = "#BF0000", -- Keywords alt
+				base0F = "#FF4500", -- Deprecated
+			},
+		},
+		config = function(_, opts)
+			require("aether").setup(opts)
+			vim.cmd.colorscheme("aether")
+			require("aether.hotreload").setup()
+		end,
 	},
 	{
 		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "pixel",
-		},
+		opts = { colorscheme = "aether" },
 	},
 }
