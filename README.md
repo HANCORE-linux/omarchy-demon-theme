@@ -5,6 +5,7 @@ Created to embody intensity and focus — a workspace that feels alive, yet disc
 
 # Screenshots
 <img width="2560" height="1440" alt="screenshot-2025-10-07_21-05-34" src="https://github.com/user-attachments/assets/b14d6ddb-c5ed-4376-92b3-09edb39a8a32" />
+<img width="2560" height="1440" alt="screenshot-2025-10-31_23-09-34" src="https://github.com/user-attachments/assets/7f9f3279-17c8-4d2c-a867-b7d04e3ed349" />
 
 
 
