@@ -5,11 +5,11 @@
  */
 
 @define-color selected-text #FFAA00;
-@define-color text #05050A;
-@define-color base #3A403B;
-@define-color border #05050A;
+@define-color text #ff4d00;
+@define-color base #0F0F0F;
+@define-color border #FFAA00;
 @define-color foreground #05050A;
-@define-color background #3A403B;
+@define-color background #0F0F0F;
 
 @define-color hover #05050A;
 @define-color accent #FFAA00;
