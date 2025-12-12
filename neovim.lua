@@ -11,25 +11,25 @@ return {
 		opts = {
 			disable_italics = false,
 			colors = {
-				-- Monotone shades (base00-base07)
+				-- Core monochrome shades
 				base00 = "#0F0F0F", -- Background
 				base01 = "#1B1B1B", -- Panels
 				base02 = "#3A403B", -- Selection
-				base03 = "#6E6A5A", -- Comments (Ash Bronze - improved readability)
+				base03 = "#6E6A5A", -- Comments
 				base04 = "#7B726A", -- Dim text
 				base05 = "#E0D4C2", -- Foreground
-				base06 = "#F3E9DA", -- Bright foreground
+				base06 = "#F3E9DA", -- Bright fg
 				base07 = "#FFFFFF", -- White
 
-				-- Accent colors
-				base08 = "#8B0000", -- Errors
-				base09 = "#FFAA00", -- Constants
-				base0A = "#E24C00", -- Keywords
-				base0B = "#D87F3E", -- Strings
-				base0C = "#A67C52", -- Support
-				base0D = "#FF6347", -- Functions
-				base0E = "#BF0000", -- Keywords alt
-				base0F = "#FF4500", -- Deprecated
+				-- Accents (adjusted for readability)
+				base08 = "#CC3A3A", -- Errors (was #8B0000) softer but still strong
+				base09 = "#E89A24", -- Constants (less neon)
+				base0A = "#D77A22", -- Keywords (warm amber, not red)
+				base0B = "#C99A6C", -- Strings (tan, earthy, readable)
+				base0C = "#A67C52", -- Support (unchanged)
+				base0D = "#C9694A", -- Functions (copper, not tomato red)
+				base0E = "#8F4A2F", -- Alt keywords (deep warm brown, not red)
+				base0F = "#A14C2D", -- Deprecated (muted rust)
 			},
 		},
 		config = function(_, opts)
