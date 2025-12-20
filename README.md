@@ -23,11 +23,6 @@ For Vesktop users, you can install this theme by copying the theme file to your 
 cp system24-Demon.css ~/.config/vesktop/themes/system24-Demon.css
 ```
 
-## Neovim-Theme
-- Using https://github.com/bjarneo Pixel Theme which use the colors from terminal syntax <br>
-- Check https://github.com/bjarneo/pixel.nvim <br>
-- Make sure Lazyvim is update to date type :Lazy <br>
-
 ## VSCode-Theme
 - Using Theme: Matte Black
 - Using Extension-ID: TahaYVR.matteblack
