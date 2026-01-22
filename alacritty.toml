@@ -14,7 +14,7 @@ text = "#0F0F0F"
 cursor = "#FF4500"
 
 [colors.selection]
-text = "CellForeground"
+text = "#FF4500"
 background = "#3A403B"
 
 [colors.normal]
@@ -34,5 +34,5 @@ green = "#305432"
 yellow = "#FF4500"
 blue = "#496529"
 magenta = "#7B726A"
-cyan = "#A9A9A9"
-white = "#eaeaea"
+cyan = "#7A7D80"
+white = "#bebebe"
