@@ -18,9 +18,14 @@ To install this theme, simply use the omarchy-theme-install command:
 omarchy-theme-install https://github.com/HANCORE-linux/omarchy-demon-theme.git
 ```
 ## Vesktop-Theme
-For Vesktop users, you can install this theme by copying the theme file to your Vesktop themes directory:
+- 2 alternates (system24 and vencord versions) For Vesktop users, you can install this theme by copying the theme file to your Vesktop themes directory:
+
 ```bash
 cp system24-Demon.css ~/.config/vesktop/themes/system24-Demon.css
+```
+or
+```bash
+cp vencord.theme.css ~/.config/vesktop/themes/vencord.theme.css
 ```
 
 ## VSCode-Theme
