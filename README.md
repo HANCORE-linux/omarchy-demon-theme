@@ -21,11 +21,8 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-demon-theme.git
 - 2 alternates (system24 and vencord versions) For Vesktop users, you can install this theme by copying the theme file to your Vesktop themes directory:
 
 ```bash
-cp system24-Demon.css ~/.config/vesktop/themes/system24-Demon.css
-```
-or
-```bash
-cp vencord.theme.css ~/.config/vesktop/themes/vencord.theme.css
+system24-Demon.css
+vencord.theme.css
 ```
 
 ## VSCode-Theme
@@ -34,7 +31,7 @@ cp vencord.theme.css ~/.config/vesktop/themes/vencord.theme.css
 - If Theme is not getting installed , do it manually: Open VSCode > Click on Extensions > type: Matte Black
 
 ## Waybar-Theme
-For my Waybar-Theme simply check my Link https://github.com/HANCORE-linux/Waybar-Theme-red-accents-.git
+For my Waybar-Theme simply check my [Link](https://github.com/HANCORE-linux/waybar-themes)
 
 ### License
 MIT
