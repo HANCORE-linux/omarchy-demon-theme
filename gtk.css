@@ -3,19 +3,19 @@
     @define-color black          #0F0F0F;
     @define-color red            #8B0000;
     @define-color green          #3A403B;
-    @define-color yellow         #FF4500;
+    @define-color yellow         #E24C00;
     @define-color blue           #4A4E3D;
     @define-color magenta        #7B726A;
     @define-color cyan           #7A7D80;
-    @define-color white          #bebebe;
+    @define-color white          #BDB5AA;
     @define-color bright_black   #292828;
     @define-color bright_red     #8B0000;
     @define-color bright_green   #305432;
-    @define-color bright_yellow  #FF4500;
+    @define-color bright_yellow  #E24C00;
     @define-color bright_blue    #496529;
     @define-color bright_magenta #7B726A;
-    @define-color bright_cyan    #A9A9A9;
-    @define-color bright_white   #eaeaea;
+    @define-color bright_cyan    #7A7D80;
+    @define-color bright_white   #BDB5AA;
 
     @define-color accent_bg_color @blue;
     @define-color accent_fg_color @background;
@@ -31,11 +31,11 @@
     @define-color sidebar_backdrop_color @black;
     @define-color sidebar_shade_color @black;
 
-    @define-color headerbar_bg_color alpha(@foreground, 0.1);
+    @define-color headerbar_bg_color @background;
     @define-color headerbar_fg_color @foreground;
     @define-color headerbar_backdrop_color @black;
     @define-color headerbar_shade_color @black;
-    @define-color card_bg_color alpha(@foreground, 0.1);
+    @define-color card_bg_color @background;
     @define-color card_fg_color @foreground;
 
     @define-color popover_bg_color @black;
@@ -160,7 +160,7 @@
         background-color: @red;
     }
 
-    .svg-icon {
+    /* .svg-icon {
         filter: invert(79%) sepia(18%) saturate(611%) hue-rotate(192deg)
             brightness(103%) contrast(94%);
-    }
+    } */
