@@ -8,7 +8,7 @@ return {
     },
   },
   {
-    "folke/noice.nvim", -- LazyVim already uses this
+    "folke/noice.nvim",
     opts = function(_, opts)
       vim.api.nvim_set_hl(0, "NoiceCmdlinePopup", {
         bg = "#0F0F0F",     -- change this to your desired background
