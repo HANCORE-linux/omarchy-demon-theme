@@ -15,7 +15,7 @@ return {
         fg = "#E0D4C2",     -- optional: foreground/text color
       })
       vim.api.nvim_set_hl(0, "NoiceCmdlinePopupBorder", {
-        fg = "#3A403B",     -- muted border
+        fg = "#7B726A",     -- muted border
       })
     end,
   },
