@@ -17,21 +17,11 @@ To install this theme, simply use the omarchy-theme-install command:
 ```bash
 omarchy-theme-install https://github.com/HANCORE-linux/omarchy-demon-theme.git
 ```
-## Vesktop-Theme
-- 2 alternates (system24 and vencord versions) For Vesktop users, you can install this theme by copying the theme file to your Vesktop themes directory:
+#### Waybar
+[LINK](https://github.com/HANCORE-linux/waybar-themes)
 
-```bash
-system24-Demon.css
-vencord.theme.css
-```
-
-## VSCode-Theme
-- Using Theme: Matte Black
-- Using Extension-ID: TahaYVR.matteblack
-- If Theme is not getting installed , do it manually: Open VSCode > Click on Extensions > type: Matte Black
-
-## Waybar-Theme
-For my Waybar-Theme simply check my [Link](https://github.com/HANCORE-linux/waybar-themes)
+#### Theme-Hook-Manager
+[Link](https://github.com/OldJobobo/theme-hook-plugin-manager)
 
 ### License
 MIT
